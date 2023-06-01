@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+    min-height: 90vh;
+}
+
+body:hover {
+    background-color: wheat;
+}
+
+.add {
+    background-color: rgb(77, 169, 77);
+}
+
+.add:hover {
+    background-color: darkgreen;
+}
+
+.take {
+    background-color: rgb(195, 82, 82);
+    transition: all 0.5s linear;
+}
+
+.take:hover {
+    background-color: darkred;
+    font-size: 20px;
+}
+
+button {
+    color: white;
+}
